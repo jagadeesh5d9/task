@@ -1,0 +1,26 @@
+.leaderboard-container {
+  background-color: #f1f5f9;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.leaderboard-table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.leaderboard-table th {
+  background-color: #e0f2fe;
+  text-align: left;
+  font-weight: 600;
+}
